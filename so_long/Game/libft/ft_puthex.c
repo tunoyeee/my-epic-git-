@@ -6,7 +6,7 @@
 /*   By: tbaptist <tbaptist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/08 15:37:53 by tbaptist          #+#    #+#             */
-/*   Updated: 2023/09/26 15:29:23 by tbaptist         ###   ########.fr       */
+/*   Updated: 2024/01/23 15:05:41 by tbaptist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	ft_puthex(unsigned int n, int *len, char type)
 		ft_putchar(HEX_LOW[n % 16], len);
 	}
 	if (type == 'X')
-	{	
+	{
 		if (n < 16)
 		{
 			ft_putchar(HEX_HIGH[n % 16], len);
