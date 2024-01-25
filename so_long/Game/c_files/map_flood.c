@@ -6,7 +6,7 @@
 /*   By: tbaptist <tbaptist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 15:35:27 by tbaptist          #+#    #+#             */
-/*   Updated: 2024/01/17 16:55:54 by tbaptist         ###   ########.fr       */
+/*   Updated: 2024/01/25 17:34:40 by tbaptist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 //check if the map is winnable
 void	ft_flood(t_game *values, int x, int y, char **n_map)
 {
-	if (n_map[y][x] == '1' || n_map[y][x] == 'F')
+	if (n_map[y][x] == '1' || n_map[y][x] == 'F' || n_map[y][x] == 'B')
 		return ;
 	else if (n_map[y][x] == 'C')
 		values->ccopy--;

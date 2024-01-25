@@ -6,7 +6,7 @@
 /*   By: tbaptist <tbaptist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/21 18:47:24 by tbaptist          #+#    #+#             */
-/*   Updated: 2024/01/25 15:37:35 by tbaptist         ###   ########.fr       */
+/*   Updated: 2024/01/25 17:43:32 by tbaptist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,7 +59,6 @@ typedef struct s_game
 	int		py;
 	void	*mlx_win;
 	void	*mlx;
-	//void	*img;
 	int		m;
 	int		direct;
 	int		b;
